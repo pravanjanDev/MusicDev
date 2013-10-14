@@ -1,0 +1,234 @@
+    tr.odd {    
+        font: 11px/14px Arial,Tahoma,Verdana, sans-serif;
+        font-weight: bold;
+        text-align:center;
+        color: #333333;
+        background-color:tan;
+    }
+
+    tr.even {       
+        font: 11px/14px Arial,Tahoma,Verdana, sans-serif;
+        font-weight: bold;
+        text-align:center;
+        color: #333333;
+        background-color:snow;
+    }
+
+    .messagefilterleftitem{
+        padding-left: 20px;
+        color:#336699;
+        font-family: arial;
+        font-size: 11px;
+        font-weight: bold;
+        cursor:pointer;
+    }
+    .inputFormText{
+    	text-align:left;
+    	width:60px;
+    	color:#336699;border: 1px solid;
+    	border-color: #999999;
+    	font: 11px/16px Arial,Tahoma, Verdana, sans-serif;
+    }
+	
+    .messagefilterleftitem A:link {text-decoration: none;font-family: arial; color: #336699;font-size: 11px;}
+    .messagefilterleftitem A:visited {text-decoration: none;font-family: arial; color: #336699;font-size: 11px;}
+    .messagefilterleftitem A:active {text-decoration: none;font-family: arial; color: #336699;font-size: 11px;}
+    .messagefilterleftitem A:hover {text-decoration: none;font-family: arial; color: #336699; font-weight: bold;font-size: 11px;}
+
+    .historyformlabel{
+        color:#666666;
+        font: 11px Tahoma, Verdana, sans-serif;
+        font-weight:bold;
+        text-align: right;
+        width:200px;
+    }
+
+    .historyformvalue{
+        color:#000000;
+        font: 11px Tahoma, Verdana, sans-serif;
+        width:285px;
+    }
+
+    .view A:link {text-decoration: none;font-family: arial; color: #333333;font-size: 11px;}
+    .view A:visited {text-decoration: none;font-family: arial; color: #333333;font-size: 11px;}
+    .view A:active {text-decoration: none;font-family: arial; color: #333333;font-size: 11px;}
+    .view A:hover {text-decoration: none;font-family: arial; color: #333333; font-weight: bold;font-size: 11px;}
+    
+    .pagelinks{
+        height:20px;
+        width:630px;
+        border: 1px solid #000000;
+        background-color: #99CCFF;
+        text-align: center;
+        color:#000000;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .pagebanner{
+        height:20px;
+        background-color: #99CCFF;
+        color:#000000;
+        font-family: arial;
+        font-size: 11px;
+    }
+    .pagelinks A:link {text-decoration: none;font-family: arial; color: #333333;font-size: 11px;}
+    .pagelinks A:visited {text-decoration: none;font-family: arial; color: #333333;font-size: 11px;}
+    .pagelinks A:active {text-decoration: none;font-family: arial; color: #333333;font-size: 11px;}
+    .pagelinks A:hover {text-decoration: none;font-family: arial; color: #333333;font-size: 11px;}
+
+	.empty{
+		font-family: arial;
+		font-size: 12px;
+		font-weight:bold;
+		color:red;
+	}
+
+.messageupdateHeader{
+	background-color: #333333;
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size:11px;
+}
+
+.hideDiv{
+	display: none; 
+    position: absolute; 
+    z-index: 9998;
+}
+
+.divContent{
+    background-color: #E5E5E5;
+	overflow:auto;
+	width:210px;
+	height:100px;
+    border:1px solid #333333;
+}
+
+.messageupdateData{
+	background-color: #CFCFCF;
+	color:#333333;
+	font-family:Tahoma;
+	font-size:10px;
+}
+table.displaytabledata{
+	font: Tahoma;
+}
+table.displaytabledata th {
+	font: 10pt Tahoma,Verdana, sans-serif;
+	font-weight:bold;
+}
+
+.finishdiv{ 
+	font: 11px/14px Arial,Tahoma,Verdana, sans-serif;;
+	font-weight:bold;
+}
+
+.sendpopupdiv{
+	 position: absolute; 
+	 background-color: #FFFFFF;
+	 top:150; 
+	 left:200;
+     z-index: 9998;
+     width:400px;
+     height:300px;
+     overflow:auto;
+     display:none;
+     border:2px solid #333333;
+}
+.editpopupdiv{
+	 position: absolute; 
+	 background-color:#FFFFFF;
+	 top:30px;
+	 left:200px;
+     z-index: 9998;
+     height:500px;
+     width:400px;
+     /*overflow:auto;*/
+     display:none;
+     border:2px solid #333333;
+}
+.headertext{
+	color:#FFFFFF;
+	font-weight:bold;
+	font: 11px/16px Tahoma, Verdana, sans-serif;
+    background-color:#336699;
+}
+.alertlabel{
+	color:#339900;
+	font-size:11pt;
+	font-family:garamond;
+	font-weight:bold;
+}
+.inputMessageform{
+		color:#336699; 
+		border: 1px solid; 
+		border-color: #999999;
+		font: 11px/16px Tahoma, Verdana, sans-serif;
+		/*padding-bottom: 4px;*/
+}
+.statusContainer {
+   background-color : #FFFFCC;
+   visibility       : hidden;
+   height           : 40px;
+}
+span.statusMsg {
+   font-family      : Tahoma;
+   font-size        : 12px;
+   font-weight      : bold;
+   margin           : 2px 6px;
+   color            : #CC0000;
+}
+.historyformlabel{
+	color:#666666;
+	font: 11px Tahoma, Verdana, sans-serif;
+	font-weight:bold;
+	text-align: right;
+	width:200px;
+}
+.historyformvalue{
+	color:#000000;
+	font: 11px Tahoma, Verdana, sans-serif;
+	width:285px;
+}
+.inputMessageformmanadatory{
+		color:#336699; 
+		border: 1px solid red; 
+		border-color:#CC0000;
+		font: 11px/16px Tahoma, Verdana, sans-serif;
+		/*padding-bottom: 4px;*/
+}
+.inputMessageformmanadatory{
+		color:#336699; 
+		border: 1px solid red; 
+		border-color:#CC0000;
+		font: 11px/16px Tahoma, Verdana, sans-serif;
+		/*padding-bottom: 4px;*/
+}
+
+
+
+ .messageclicked{
+	font: 11px/14px Arial,Tahoma,Verdana, sans-serif;
+    font-weight: bold;
+    text-align:center;
+    color: #FFFFFF;
+	background-color:#7171E3;
+	Z-index:100;
+	}
+
+	.alertbox{
+        background-color : #CEE7FF;
+        font-family      : Trebuchet MS, Verdana, Arial;
+        text-align       : center;
+        font-size        : 14px;
+        color            : #336699;
+        padding-top      : 40px;
+        padding-bottom   : 40px;
+        margin-top       : 40px;
+        width            : 300px;
+        position         : absolute;
+        top              : 200; 
+        left             : 300;
+        z-index          : 10000;
+        display          :none;
+    }
